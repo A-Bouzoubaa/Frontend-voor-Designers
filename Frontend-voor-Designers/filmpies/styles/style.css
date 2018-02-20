@@ -1,0 +1,167 @@
+body{
+background-color: #34495E;
+color: #ECF0F1;
+padding: 0px;
+margin: auto;
+width: 375px;
+font-family: 'Roboto', sans-serif;
+
+}
+
+header {
+  background-color: #2C3E50;
+  display: flex;
+  width: 375px;
+  height: 40px;
+}
+
+
+header a:nth-child(1) {
+  margin: 0px;
+  margin-left: 20px;
+  position: relative;
+
+}
+
+header a:nth-child(2) {
+  margin: auto;
+
+
+}
+
+header a:nth-child(3) {
+  float: right;
+  margin-right: 20px;
+
+}
+
+header a img {
+  height: 30px;
+  margin-top: 5px;
+
+}
+
+.titlePage {
+    display: flex;
+    width: 375px;
+    height: 40px;
+
+}
+
+.titlePage > a img {
+  height: 30px;
+  margin: auto;
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.titlePage > h1 {
+  font-size: 18px;
+  margin: auto;
+
+
+}
+
+.titlePage > a:nth-child(2) {
+  float: right;
+}
+
+
+section {
+  width: 350px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px;
+  margin-top: 5px;
+
+  max-height: 150px;
+  overflow: hidden;
+
+  transition: max-height 0.7s;
+}
+
+#content.open {
+  max-height: 1500px;
+  transition: max-height 0.7s;
+}
+
+#blackPanther.open {
+  display: none
+}
+
+#meerInfoBlack.open {
+  display: none
+}
+/*background image*/
+section > img {
+  width: 355px;
+  clip: rect(0px, 355px, 150px, 0px);
+  position: absolute;
+  z-index: -1;
+}
+
+section a img {
+  width: 20px;
+}
+
+section h1 {
+  float: left;
+  width: 50%;
+  height:60px;
+  position: relative;
+  left: 10px;
+}
+
+/*Jaar*/
+section > p:nth-of-type(1){
+  width: 50%;
+  text-align: right;
+  position: relative;
+  right: 10px;
+}
+
+/*Genre*/
+section > p:nth-of-type(2){
+  width: 50%;
+  position: relative;
+  left: 10px;
+}
+
+/*toevoegen aan lijst*/
+section a{
+  width: 50%;
+  color: #ECF0F1;
+  text-align: right;
+  text-decoration: none;
+  position: relative;
+  right: 10px;
+}
+
+section > p:nth-of-type(3){
+  padding: 5px;
+  padding-top: 10px;
+  background: white;
+  color: black;
+  position: relative;
+  bottom: 21px;
+  margin-bottom: 0px;
+}
+
+.meerInfo {
+  background: #E77E21;
+  color: #fff;
+  display: block;
+  width: 140px;
+  font-size: 12px;
+  text-transform: uppercase;
+  padding: 10px;
+  text-align: center;
+  margin: auto;
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+  border-radius: 0px 0px 30px 30px;
+
+}
