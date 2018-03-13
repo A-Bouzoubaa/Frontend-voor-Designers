@@ -1,0 +1,280 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  color: ##707070;
+}
+
+h1 {
+  font-family: 'Futura', sans-serif;
+}
+
+body {
+  margin: auto;
+
+}
+
+
+header {
+  background-color: #E74C3C;
+  position: fixed;
+  width: 100%;
+  opacity: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+nav li {
+  width: 10em;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 1em;
+}
+
+nav li a:hover {
+  background-color: grey;
+}
+
+header img {
+  width: 60px;
+  position: absolute;
+  padding: 4px 0px 0px 20px;
+}
+
+
+section {
+  width: 100%;
+  height: 100vh;
+  max-height: 800px;
+  margin: auto;
+}
+
+
+h1 {
+  text-align: center;
+  width: 100%;
+  padding-top: 100px;
+}
+
+#home {
+  background-color: white;
+  background-image: url("../img/fotozwartwit.jpg");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 450px;
+
+}
+
+#home h1 {
+  text-align: left;
+  font-size: 70px;
+  width: 55%;
+  margin-left: 100px;
+  color: #707070;
+}
+
+#home span {
+  color: #E74C3C;
+  font-size: 70px;
+  font-family: 'Futura', sans-serif;
+}
+
+#home span:hover {
+  font-size: 50px;
+}
+
+#home p {
+  font-size: 20px;
+  max-width: 60%;
+  color: #707070;
+  margin: 50px 100px;
+}
+
+#home a:nth-of-type(2) {
+  display: block;
+  margin: 50px 100px;
+  padding: 20px;
+  text-decoration: none;
+  color: #E74C3C;
+  width: 245px;
+  border: 2px solid #E74C3C;
+  text-align: center;
+  font-size: 26px;
+  transition: 2s;
+}
+
+#home a:nth-of-type(2):hover {
+  opacity: 0;
+}
+
+
+#work {
+  background-color: #2C3E50;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: white;
+
+}
+
+.myWork {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 50px 100px;
+}
+
+
+#work img {
+  width: 300px;
+  height:200px;
+
+
+}
+
+#aboutMe {
+  background-color: #34495E;
+  color: white;
+  transition: 2s;
+
+}
+
+#aboutMe p {
+  padding: 30px 100px;
+
+}
+
+#aboutMe:hover p {
+  opacity: 0;
+}
+
+#skills {
+  background-color: #2C3E50;
+  color: white;
+
+}
+
+#skills p {
+  padding: 3px 0px;
+}
+
+#container {
+  box-sizing: border-box;
+  padding: 0px 100px;
+
+}
+
+.container {
+  width: 100%;
+  background-color: #ddd;
+  border: 1px solid white;
+}
+
+.skills {
+  text-align: right;
+  padding-right: 20px;
+  line-height: 40px;
+  color: white;
+  background-color: #E74C3C;
+}
+
+.AI {
+  width: 90%;
+  transition: width 2s;
+}
+
+#skills:hover .AI {
+  width: 5%;
+}
+
+.XD {
+  width: 85%;
+  transition: width 2s;
+}
+
+#skills:hover .XD {
+  width: 5%;
+}
+
+.PS {
+  width: 80%;
+  transition: width 2s;
+}
+
+#skills:hover .PS {
+  width: 5%;
+}
+
+.PP {
+  width: 75%;
+  transition: width 2s;
+}
+
+#skills:hover .PP {
+  width: 5%;
+}
+
+.html {
+  width: 70%;
+  transition: width 2s;
+}
+
+#skills:hover .html {
+  width: 5%;
+}
+
+.AF {
+  width: 65%;
+  transition: width 2s;
+}
+
+#skills:hover .AF {
+  width: 5%;
+}
+
+.unity {
+  width: 60%;
+  transition: width 2s;
+}
+
+#skills:hover .unity {
+  width: 5%;
+}
+
+#contact {
+  background-color: #34495E;
+  color: white;
+}
+
+#form {
+    padding: 100px;
+}
+
+input[type=text], input[type=email], textarea, select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #E74C3C;;
+    color: white;
+    padding: 15px 50px;
+    border: none;
+    cursor: pointer;
+    font-size: 26px;
+}
